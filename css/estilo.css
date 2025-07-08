@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Roboto:wght@400;700&family=Merriweather&display=swap');
+
+body {
+    background-color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 850px;
+    width: 90%;
+    background-color: #FFFFFF;
+    margin: 30px auto;
+    padding: 30px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    border-top: 5px solid #121212;
+}
+
+#cabecalho {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    color: #121212;
+    text-transform: uppercase;
+}
+
+p, li {
+    font-family: 'Merriweather', serif;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 5px 0;
+}
+
+.logo-clube {
+    width: 90px;
+    height: auto;
+}
+
+.img-destaque {
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 20px auto;
+    display: block;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #121212;
+    margin: 0 20px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 5px;
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.menu a:hover {
+    color: #D4AF37;
+    border-bottom: 2px solid #D4AF37;
+}
+
+a {
+    color: #555;
+    font-weight: bold;
+}
